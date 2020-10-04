@@ -4,6 +4,8 @@ I got there from this post:
 https://www.gatsbyjs.com/blog/2017-11-08-migrate-from-jekyll-to-gatsby/
 which I got to... somewhere from the podcast Real Talk JavaScript.
 
+Now that I look at it a bit closer, that was the last post the guy made to his blog... Not a good sign...
+
 Sigh... I've spent way too much time on this already.
 Tachyons CSS seems like an interesting idea but a little bit dead.
 

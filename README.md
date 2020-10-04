@@ -1,3 +1,15 @@
+I forked this to try it out. It looks interesting but weird.
+
+I got there from this post:
+https://www.gatsbyjs.com/blog/2017-11-08-migrate-from-jekyll-to-gatsby/
+which I got to... somewhere from the podcast Real Talk JavaScript.
+
+Sigh... I've spent way too much time on this already.
+Tachyons CSS seems like an interesting idea but a little bit dead.
+
+Maybe later I'll check this recent post talking about "utility-first CSS"
+https://blog.logrocket.com/tailwindcss-vs-tachyons/
+
 # Learn Tachyons [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/learn-tachyons/issues) [![HitCount](http://hits.dwyl.io/dwyl/learn-tachyons.svg)](http://hits.dwyl.io/dwyl/learn-tachyons)
 
 ![tachyons-intro-image](https://cloud.githubusercontent.com/assets/194400/25710569/87726714-30e4-11e7-9532-4a447bd61629.png)
@@ -9,38 +21,58 @@ with **minimal CSS**
 in **much less time**._
 
 <!-- START doctoc -->
-- [_Why_?](#why)
-  - [_One Minute Summary_](#one-minute-summary)
-- [What?](#what)
-  - [What is _Different_?](#what-is-different)
-  - [_Bootstrap_ Custom Button (_The Old Way_!)](#bootstrap-custom-button-the-old-way)
-  - [_Tachyons_ Custom Button (_New Way_!)](#tachyons-custom-button-new-way)
-  - [What is "_Functional_" CSS?](#what-is-functional-css)
-- [Functional CSS is:](#functional-css-is)
-  - [Functional :innocent:](#functional-innocent)
-  - [Composable :musical_score: :notes: :musical_keyboard:](#composable-musical_score-notes-musical_keyboard)
-  - [Immutable :gem: :gem: :gem:](#immutable-gem-gem-gem)
-- [Why Tachyons?](#why-tachyons)
-  - [Easy to Understand and Use](#easy-to-understand-and-use)
-  - [_Mobile First_ Responsive Design](#mobile-first-responsive-design)
-  - [Accessibility](#accessibility)
-  - [A Natural Workflow](#a-natural-workflow)
-  - [Works well with component based UIs](#works-well-with-component-based-uis)
-  - [Great Performance that Scales](#great-performance-that-scales)
-- [_How_?](#how)
-  - [Try _Before_ You Commit (3 Easy Steps)](#try-before-you-commit-3-easy-steps)
-  - [In your Own Project](#in-your-own-project)
-- [Learning the ropes](#learning-the-ropes)
-  - [Responsive modifiers](#responsive-modifiers)
-  - [Typography](#typography)
-  - [Layout](#layout)
-  - [Theming](#theming)
-+ [Image Placeholder Example](#how-to-create-an-image-placeholder)
-+ [Responsive Navigation Menu Example](#responsive-navigation-menu)
-- [Resources](#resources)
-  - [Articles](#articles)
-  - [Questions and Discussions](#questions-and-discussions)
-  - [Future of Tachyons](#future-of-tachyons)
+- [Learn Tachyons ![contributions welcome](https://github.com/dwyl/learn-tachyons/issues) [![HitCount](http://hits.dwyl.io/dwyl/learn-tachyons.svg)](http://hits.dwyl.io/dwyl/learn-tachyons)](#learn-tachyons-img-srchttpsimgshieldsiobadgecontributions-welcome-brightgreensvgstyleflat-square-altcontributions-welcome-img-srchttphitsdwyliodwyllearn-tachyonssvg-althitcount)
+  - [_Why_?](#why)
+    - [_One Minute Summary_](#one-minute-summary)
+  - [What?](#what)
+    - [What is _Different_?](#what-is-different)
+    - [_Bootstrap_ Custom Button (_The Old Way_!)](#bootstrap-custom-button-the-old-way)
+    - [_Tachyons_ Custom Button (_New Way_!)](#tachyons-custom-button-new-way)
+    - [What is "_Functional_" CSS?](#what-is-functional-css)
+  - [Functional CSS is:](#functional-css-is)
+    - [Functional :innocent:](#functional-innocent)
+    - [Composable :musical_score: :notes: :musical_keyboard:](#composable-musical_score-notes-musical_keyboard)
+    - [Immutable :gem: :gem: :gem:](#immutable-gem-gem-gem)
+  - [Why Tachyons?](#why-tachyons)
+    - [Easy to Understand and Use](#easy-to-understand-and-use)
+    - [_Mobile First_ Responsive Design](#mobile-first-responsive-design)
+    - [Accessibility](#accessibility)
+    - [A Natural Workflow](#a-natural-workflow)
+    - [Works well with component based UIs](#works-well-with-component-based-uis)
+    - [Great Performance that Scales](#great-performance-that-scales)
+  - [_How_?](#how)
+    - [Try _Before_ You Commit (3 Easy Steps)](#try-before-you-commit-3-easy-steps)
+      - [1. Clone this Repository](#1-clone-this-repository)
+      - [2. Open one of the Example `.html` files in your web browser](#2-open-one-of-the-example-html-files-in-your-web-browser)
+      - [3. Edit Some Code!](#3-edit-some-code)
+      - [_Optional_: Install "Live Server" for "_Live Reloading_"](#optional-install-live-server-for-live-reloading)
+    - [In your Own Project](#in-your-own-project)
+  - [Learning the ropes](#learning-the-ropes)
+    - [Responsive modifiers](#responsive-modifiers)
+    - [Typography](#typography)
+      - [Font size](#font-size)
+      - [Line Height](#line-height)
+      - [Font weight and style](#font-weight-and-style)
+      - [Text alignment](#text-alignment)
+    - [Layout](#layout)
+      - [Padding and Margins](#padding-and-margins)
+      - [Floating](#floating)
+      - [Display](#display)
+      - [Widths](#widths)
+      - [Heights](#heights)
+      - [Position](#position)
+    - [Theming](#theming)
+      - [Hovers](#hovers)
+      - [Background size](#background-size)
+      - [Borders](#borders)
+      - [Opacity](#opacity)
+  - [How To Create an Image Placeholder](#how-to-create-an-image-placeholder)
+    - [Break it down:](#break-it-down)
+  - [Responsive Navigation Menu](#responsive-navigation-menu)
+  - [Resources](#resources)
+    - [Articles](#articles)
+    - [Questions and Discussions](#questions-and-discussions)
+    - [Future of Tachyons](#future-of-tachyons)
 <!-- END doctoc  -->
 
 ## _Why_?
